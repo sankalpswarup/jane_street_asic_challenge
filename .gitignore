@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Simulation / ASIC flow artifacts
+*.vcd
+*.fst
+*.fst.hier
+**/sim_build/
+**/results.xml
+**/runs/
+**/tt_submission/
+**/gate_level_netlist.v
+src/user_config.json
+src/config_merged.json
+
+# Tooling caches
+*.log
+.cache/
